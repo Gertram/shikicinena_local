@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background: #464646;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+div {
+    margin: 0;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.nav_button{
+    display: inline-block;
+    padding: 1em;
+    cursor: pointer;
+    background: #464646;
+    color: white;
+    margin:0 1em;
+}
+
+#episode_info{
+    display: inline-block;
+    padding: 1em;
+    background: #464646;
+    color: white;
+    margin: 0 1em;
+}
+
+#other{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#video_wrap {
+    display: inline-block;
+    margin: 0 auto;
+    aspect-ratio: 16/9;
+    height: min(99vh, calc(100vw / 16 * 9));
+}
+
+#video_root {
+    width: 100%;
+    border: 0;
+    height: 100%;
+}
